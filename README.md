@@ -22,3 +22,5 @@ use the python code for training
 database contains 1000 audio files with .wav format, 
 there are 5 classes each class has 200 audio fies
 ===========================================================
+
+AS, MR, MS, MVP and N are five classes 
