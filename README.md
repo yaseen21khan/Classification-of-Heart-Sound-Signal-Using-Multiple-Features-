@@ -24,3 +24,6 @@ there are 5 classes each class has 200 audio fies
 ===========================================================
 
 AS, MR, MS, MVP and N are five classes 
+
+Further discussion and explanation can be found published in;
+https://www.mdpi.com/2076-3417/8/12/2344
