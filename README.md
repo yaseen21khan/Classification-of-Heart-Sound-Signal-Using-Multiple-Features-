@@ -19,7 +19,7 @@ For DNN training use features provided in the repository folder named Features;
 use the python code for training
 ===========================================================
 
-database contains 1000 audio files with .wav format, 
+database contains 1000 audio files with .wav format,
 there are 5 classes each class has 200 audio fies
 ===========================================================
 
