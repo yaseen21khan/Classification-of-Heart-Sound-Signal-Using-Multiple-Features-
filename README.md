@@ -86,6 +86,15 @@ Further details:
 If you use this dataset or code, please cite:
 
 ```bibtex
+
+@inproceedings{jamil2025facegest,
+  title={FaceGest: A Comprehensive Facial Gesture Dataset for Human-Computer Interaction},
+  author={Jamil, Sonain and others},
+  booktitle={Proceedings of the Computer Vision and Pattern Recognition Conference},
+  pages={337--347},
+  year={2025}
+}
+
 @article{yaseen2018classification,
   title={Classification of heart sound signal using multiple features},
   author={Yaseen and Son, Gui-Young and Kwon, Soonil},
@@ -95,14 +104,6 @@ If you use this dataset or code, please cite:
   pages={2344},
   year={2018},
   publisher={MDPI}
-}
-
-@inproceedings{jamil2025facegest,
-  title={FaceGest: A Comprehensive Facial Gesture Dataset for Human-Computer Interaction},
-  author={Jamil, Sonain and others},
-  booktitle={Proceedings of the Computer Vision and Pattern Recognition Conference},
-  pages={337--347},
-  year={2025}
 }
 ```
 
