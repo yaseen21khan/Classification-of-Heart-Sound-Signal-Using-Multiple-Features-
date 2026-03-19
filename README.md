@@ -1,45 +1,94 @@
-# Classification-of-Heart-Sound-Signal-Using-Multiple-Features-
-Data plus code fo Classification of Heart Sound Signal Using Multiple Features 
+Classification of Heart Sound Signal Using Multiple Features
 
-For MFCCs features extraction use;
+Data and code for heart sound signal classification using multiple features (MFCC + DWT).
 
+Dataset
+
+1000 audio files (.wav format)
+
+5 classes (200 samples each):
+
+AS (Aortic Stenosis)
+
+MR (Mitral Regurgitation)
+
+MS (Mitral Stenosis)
+
+MVP (Mitral Valve Prolapse)
+
+N (Normal)
+
+Feature Extraction
+
+Use the provided MATLAB scripts:
+
+MFCC features
 Matlab code heart sound signal processing mfcc features
-===========================================================
 
-For DWT features extraction use;
-
+DWT features
 Matlab code heart sound signal processing dwt features
-===========================================================
 
-For MFCCs plus DWT features extraction use;
+MFCC + DWT features
 Matlab code heart sound signal processing mfcc plus dwt features
-===========================================================
 
-For DNN training use features provided in the repository folder named Features;
-use the python code for training
-===========================================================
+Model Training
 
-database contains 1000 audio files with .wav format,
-there are 5 classes each class has 200 audio fies
-===========================================================
+Extracted features are stored in the "Features" folder
 
-AS, MR, MS, MVP and N are five classes 
+Use the provided Python script for DNN training
 
-How to use the code?
-First of all  download code.rar
-Extract the folder  in your matlab directory.
+You can also use CNN or other deep learning models
 
-there are 4 matlab files you have to run
+How to Use
 
-1) Matlab code heart sound signal processing dwt features.docx  "For extracting and saving dwt features"
-2) Matlab code heart sound signal processing MFCC features.docx  "For extracting and saving mfcc features"
-3) Matlab code heart sound signal processing dwt + MFCC features.docx   "For extracting and saving dwt+mfcc features"
-4) This file is for for segmentation of  heart sound signal that is "run_Example_Schmidit_script.m"
+Download code.rar
 
-Also do not move the folder "shmidit-Segmentation" as it  contains dependencies 
+Extract it into your MATLAB directory
 
-Some functions may be deprecated in the signal processing toolbox. You  have to  look for it.
-Once you obtain your features you can use the python script to train your data or you can write your own script  using CNN or some other deep learning based techniques. 
+Run the following MATLAB files:
 
-Further discussion and explanation can be found published in;
+Matlab code heart sound signal processing dwt features.docx
+For extracting and saving DWT features
+
+Matlab code heart sound signal processing MFCC features.docx
+For extracting and saving MFCC features
+
+Matlab code heart sound signal processing dwt + MFCC features.docx
+For extracting and saving combined features
+
+run_Example_Schmidit_script.m
+For heart sound signal segmentation
+
+Important Notes
+
+Do not move the "shmidit-Segmentation" folder (it contains dependencies)
+
+Some MATLAB functions may be deprecated; update them if needed
+
+Reference
+
+Further details are available in the published paper:
 https://www.mdpi.com/2076-3417/8/12/2344
+
+Citation
+
+If you use this dataset or code, please cite:
+
+@article{yaseen2018classification,
+title={Classification of heart sound signal using multiple features},
+author={Yaseen and Son, Gui-Young and Kwon, Soonil},
+journal={Applied Sciences},
+volume={8},
+number={12},
+pages={2344},
+year={2018},
+publisher={MDPI}
+}
+
+@inproceedings{jamil2025facegest,
+title={FaceGest: A Comprehensive Facial Gesture Dataset for Human-Computer Interaction},
+author={Jamil, Sonain and others},
+booktitle={Proceedings of the Computer Vision and Pattern Recognition Conference},
+pages={337--347},
+year={2025}
+}
